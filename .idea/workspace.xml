@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="464deb1c-55dc-4706-9509-641a9569855b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/QuantityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Addable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddableMeasurement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IncompatibleUnitTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NonAddableMeasurement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AddableMeasurementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/NonAddableMeasurementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/UnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quantity/Distance$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quantity/Distance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quantity/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quantity/Unit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Quantity/QuantityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Distance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/QuantityTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +26,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="237" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
@@ -21,10 +36,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/QuantityTest.java">
+        <entry file="file://$PROJECT_DIR$/test/UnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="742">
+              <caret line="94" column="82" lean-forward="true" selection-start-line="94" selection-start-column="82" selection-end-line="94" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +47,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Distance.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/AddableMeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="89" lean-forward="true" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+            <state relative-caret-position="172">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/NonAddableMeasurementTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddableMeasurement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-83">
+              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
               <folding>
                 <element signature="e#0#1073#0" expanded="true" />
               </folding>
@@ -45,10 +84,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IncompatibleUnitTypeException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding>
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NonAddableMeasurement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="35" />
+              <folding>
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Addable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="92" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -70,24 +147,27 @@
       <list>
         <option value="$PROJECT_DIR$/src/Meter.java" />
         <option value="$PROJECT_DIR$/src/Centimeter.java" />
-        <option value="$PROJECT_DIR$/src/Unit.java" />
         <option value="$PROJECT_DIR$/src/Distance.java" />
+        <option value="$PROJECT_DIR$/src/Measurement.java" />
+        <option value="$PROJECT_DIR$/src/NonAddableMeasurement.java" />
+        <option value="$PROJECT_DIR$/src/MeasurementInterface.java" />
+        <option value="$PROJECT_DIR$/src/Addable.java" />
         <option value="$PROJECT_DIR$/test/QuantityTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/test/AddableMeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/IncompatibleUnitTypeException.java" />
+        <option value="$PROJECT_DIR$/src/Type.java" />
+        <option value="$PROJECT_DIR$/src/MeasurementType.java" />
+        <option value="$PROJECT_DIR$/src/Unit.java" />
+        <option value="$PROJECT_DIR$/src/AddableMeasurement.java" />
+        <option value="$PROJECT_DIR$/test/UnitTest.java" />
+        <option value="$PROJECT_DIR$/test/NonAddableMeasurementTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="960" />
     <option name="y" value="23" />
-    <option name="width" value="893" />
-    <option name="height" value="961" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,6 +188,11 @@
               <item name="Quantity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Quantity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quantity" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,6 +205,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -145,51 +231,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuantityTest.areSame_ShouldReturnTrue_when10CmAnd10CmIsCompared">
-    <configuration name="QuantityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NonAddableMeasurementTest.equals_ShouldReturnTrue_when10CelsiusAnd100CelsiusIsCompared">
+    <configuration name="NonAddableMeasurementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Quantity" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuantityTest" />
+      <option name="MAIN_CLASS_NAME" value="NonAddableMeasurementTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.areSame_ShouldReturnTrue_when10CmAnd10CmIsCompared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NonAddableMeasurementTest.equals_ShouldReturnTrue_when10CelsiusAnd100CelsiusIsCompared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Quantity" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuantityTest" />
-      <option name="METHOD_NAME" value="areSame_ShouldReturnTrue_when10CmAnd10CmIsCompared" />
+      <option name="MAIN_CLASS_NAME" value="NonAddableMeasurementTest" />
+      <option name="METHOD_NAME" value="equals_ShouldReturnTrue_when10CelsiusAnd100CelsiusIsCompared" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.areSame_ShouldReturnTrue_when1KmAnd1000CmIsCompared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Quantity" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuantityTest" />
-      <option name="METHOD_NAME" value="areSame_ShouldReturnTrue_when1KmAnd1000CmIsCompared" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest.equals_shouldThrowException_whenInputTypeAreDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Quantity" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="METHOD_NAME" value="equals_shouldThrowException_whenInputTypeAreDifferent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuantityTest.areSame_ShouldReturnTrue_when1MAnd100CmIsCompared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTest.equals_shouldThrowException_whenKgAndNullAreCompared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Quantity" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuantityTest" />
-      <option name="METHOD_NAME" value="areSame_ShouldReturnTrue_when1MAnd100CmIsCompared" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuantityTest.areSame_ShouldReturnTrue_whenHalfKmAnd50000CmIsCompared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Quantity" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QuantityTest" />
-      <option name="METHOD_NAME" value="areSame_ShouldReturnTrue_whenHalfKmAnd50000CmIsCompared" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="METHOD_NAME" value="equals_shouldThrowException_whenKgAndNullAreCompared" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuantityTest.areSame_ShouldReturnTrue_when10CmAnd10CmIsCompared" />
-        <item itemvalue="JUnit.QuantityTest" />
-        <item itemvalue="JUnit.QuantityTest.areSame_ShouldReturnTrue_when1MAnd100CmIsCompared" />
-        <item itemvalue="JUnit.QuantityTest.areSame_ShouldReturnTrue_whenHalfKmAnd50000CmIsCompared" />
-        <item itemvalue="JUnit.QuantityTest.areSame_ShouldReturnTrue_when1KmAnd1000CmIsCompared" />
+        <item itemvalue="JUnit.NonAddableMeasurementTest.equals_ShouldReturnTrue_when10CelsiusAnd100CelsiusIsCompared" />
+        <item itemvalue="JUnit.NonAddableMeasurementTest" />
+        <item itemvalue="JUnit.UnitTest.equals_shouldThrowException_whenKgAndNullAreCompared" />
+        <item itemvalue="JUnit.UnitTest" />
+        <item itemvalue="JUnit.UnitTest.equals_shouldThrowException_whenInputTypeAreDifferent" />
       </list>
     </recent_temporary>
   </component>
@@ -215,44 +300,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557665457469</updated>
-      <workItem from="1557665460805" duration="11815000" />
+      <workItem from="1557665460805" duration="32460000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuantityTest_areSame_ShouldReturnTrue_whenHalfKmAnd50000CmIsCompared - 2019.05.13 at 09h 56m 48s.xml">
-      <configuration name="QuantityTest.areSame_ShouldReturnTrue_whenHalfKmAnd50000CmIsCompared" configurationId="JUnit" />
+    <history-entry file="UnitTest_equals_shouldThrowException_whenInputTypeAreDifferent - 2019.05.14 at 14h 47m 02s.xml">
+      <configuration name="UnitTest.equals_shouldThrowException_whenInputTypeAreDifferent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.05.13 at 09h 56m 55s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
+    <history-entry file="UnitTest - 2019.05.14 at 14h 47m 33s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.05.13 at 10h 06m 56s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
+    <history-entry file="UnitTest - 2019.05.14 at 14h 48m 30s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest_areSame_ShouldReturnTrue_when1MAnd100CmIsCompared - 2019.05.13 at 11h 38m 09s.xml">
-      <configuration name="QuantityTest.areSame_ShouldReturnTrue_when1MAnd100CmIsCompared" configurationId="JUnit" />
+    <history-entry file="UnitTest - 2019.05.14 at 14h 57m 15s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.05.13 at 11h 38m 33s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
+    <history-entry file="UnitTest - 2019.05.14 at 15h 34m 17s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.05.13 at 11h 39m 05s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
+    <history-entry file="UnitTest - 2019.05.14 at 15h 34m 48s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.05.13 at 11h 56m 40s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
+    <history-entry file="UnitTest - 2019.05.14 at 15h 39m 58s.xml">
+      <configuration name="UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.05.13 at 11h 56m 55s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
+    <history-entry file="UnitTest_equals_shouldThrowException_whenKgAndNullAreCompared - 2019.05.15 at 10h 09m 24s.xml">
+      <configuration name="UnitTest.equals_shouldThrowException_whenKgAndNullAreCompared" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest - 2019.05.13 at 14h 04m 22s.xml">
-      <configuration name="QuantityTest" configurationId="JUnit" />
+    <history-entry file="NonAddableMeasurementTest - 2019.05.15 at 11h 57m 10s.xml">
+      <configuration name="NonAddableMeasurementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuantityTest_areSame_ShouldReturnTrue_when10CmAnd10CmIsCompared - 2019.05.13 at 14h 30m 47s.xml">
-      <configuration name="QuantityTest.areSame_ShouldReturnTrue_when10CmAnd10CmIsCompared" configurationId="JUnit" />
+    <history-entry file="NonAddableMeasurementTest_equals_ShouldReturnTrue_when10CelsiusAnd100CelsiusIsCompared - 2019.05.15 at 11h 58m 49s.xml">
+      <configuration name="NonAddableMeasurementTest.equals_ShouldReturnTrue_when10CelsiusAnd100CelsiusIsCompared" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11815000" />
+    <option name="totallyTimeSpent" value="32460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -279,6 +364,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Key Promoter X" order="2" />
@@ -293,6 +379,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Quantity$UnitTest.ic" NAME="UnitTest Coverage Results" MODIFIED="1557822887666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Meter.java">
@@ -317,29 +406,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/QuantityTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MeasurementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IncompatibleUnitTypeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/NonAddableMeasurementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Unit.java">
+    <entry file="file://$PROJECT_DIR$/src/NonAddableMeasurement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Distance.java">
+    <entry file="file://$PROJECT_DIR$/src/Addable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="89" lean-forward="true" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+        <state relative-caret-position="45">
+          <caret line="3" column="92" selection-start-line="3" selection-start-column="92" selection-end-line="3" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/UnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="94" column="82" lean-forward="true" selection-start-line="94" selection-start-column="82" selection-end-line="94" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AddableMeasurementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddableMeasurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
           <folding>
             <element signature="e#0#1073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
           </folding>
         </state>
       </provider>
